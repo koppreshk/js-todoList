@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do Application</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+<body>
+    <h2>To-Do List</h2>
+    <input type = "text" id="mainInput" placeholder="Title..." />
+    <div class="boxModel">
+        <ul id="listOfItems">
+
+        </ul>
+    </div>
+    <div class="footer">
+        <p>Total Tasks: <span id = "countOfItems"></span></p>
+        <select id = "selectedValue">
+            <option value="selectStorage">Select Storage</option>
+            <option value = "localStorage">Local Storage</option>
+            <option value = "sessionStorage">Session Storage</option>
+        </select>
+    </div>
+    <script src="controller.js"></script>
+    <script src="modal.js"></script>
+    <script src="view.js"></script>
+    <script src="storageManager.js"></script>
+</body>
+</html>

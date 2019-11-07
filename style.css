@@ -1,0 +1,146 @@
+body{
+    width: 90%;
+    height: 595px;
+    background-image: linear-gradient(to bottom right, rgb(95, 107, 214), rgb(170, 132, 5));  
+}
+h2{
+    text-align: center;
+    color: rgb(235, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    left: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+  }
+  
+  button {
+    width: 180px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 65%;
+    top: 11%;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+  }
+
+  button:hover{
+    background: #08cf01;
+  }
+
+  .boxModel{
+    width: 40%;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 30%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 550px;
+    overflow-y: scroll;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+  }
+  
+  ul li:nth-child(odd) {
+    background: #b3b3b3;
+  }
+  
+  ul li:hover {
+    background: rgb(189, 189, 189);
+  }
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  input[type=checkbox] {
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid #FFFFFF;
+  }
+  
+  input[type="checkbox"]:checked + span{
+    text-decoration: line-through;
+    color: rgb(3, 145, 3);
+    font-weight: 900;
+    border: cyan;
+  }
+
+  .footer{
+    position: relative;
+    justify-content: space-between;
+    margin: 10px;
+    left: 29%;
+    height: auto;
+    width: 40%;
+    background: #eee;
+    display: flex;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .footer > select{
+    margin: 10px;
+    background-color: rgb(189, 189, 189);
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    color: rgb(105, 3, 3);
+    font-weight: bold;
+  }
+
+  #countOfItems{
+    font-weight: bold;
+    font-size: 18px;
+  }
